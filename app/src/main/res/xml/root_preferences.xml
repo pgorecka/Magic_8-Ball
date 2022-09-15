@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<PreferenceCategory app:title="@string/sound_header">
+
+		<SwitchPreferenceCompat
+			android:id="@+id/music_switch"
+			android:soundEffectsEnabled="false"
+			app:defaultValue="false"
+			app:icon="@drawable/music"
+			app:key="music"
+			app:title="@string/music_title"
+			app:useSimpleSummaryProvider="true" />
+
+		<SwitchPreferenceCompat
+			android:id="@+id/vibration_switch"
+			app:icon="@drawable/vibration"
+			app:key="vibration"
+			app:title="@string/vibration_title"
+			app:useSimpleSummaryProvider="true" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory app:title="@string/font_header">
+
+		<SeekBarPreference
+			app:icon="@drawable/text_size2"
+			app:key="text_size"
+			app:title="@string/text_size" />
+	</PreferenceCategory>
+
+	<PreferenceCategory app:title="@string/contact">
+
+		<Preference
+			android:id="@+id/send_feedback"
+			app:icon="@drawable/feedback"
+			app:key="feedback"
+			app:summary="Report technical issues or suggest new features"
+			app:title="Send feedback" />
+	</PreferenceCategory>
+
+</PreferenceScreen>
