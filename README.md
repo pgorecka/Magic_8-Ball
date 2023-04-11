@@ -1,6 +1,6 @@
 # Magic 8 Ball
 
-Kotlin app generating random answer to a YES/NO question. Involves vibration permission and shake to click function.
+Kotlin app generating random answer to a yes/no question. Involves vibration permission and shake to click function.
 
 <br>
   <p align="center">
