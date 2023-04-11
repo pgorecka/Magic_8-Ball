@@ -2,6 +2,14 @@
 
 Kotlin app generating random answer to a yes/no question. Involves vibration permission and shake to click function.
 
+### Features
+* Alternative theme
+* Background music
+* Vibration
+* Text size adjustment
+* Sharing the app's respone
+
+
 <br>
   <p align="center">
     <img src="https://user-images.githubusercontent.com/42835959/231140014-68efc70c-1b06-4363-adad-a2102becfe0d.png" height="512" width="243">
